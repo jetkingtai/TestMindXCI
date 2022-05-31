@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.logo   {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.nav-with-search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search {
+    width: 30%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    /* background-color: aquamarine; */
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-list {
+    
+}
+.icon {
+    font-size: 20px;
+    font-weight: 200;
+}
+.input {
+    margin-right: 100px;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+.nav-main {
+    width: 70%;
+    height: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: flex-end;
+}
+.list-content {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 13px;
+}
+.btn   {
+    padding: 15px 20px;
+    background-color: blueviolet;
+    border-radius: 10px;
+    color: white;
+}
+.anh-main {
+    width: 97px;
+    height: 97px;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+.content {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.user {
+    border: 1px solid #ccc;
+    display: flex;
+    padding-left: 20px;
+    height: 200px;
+    border-radius: 5px;
+    background-color: #fbfcff;
+}
+.name {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top:20px ;
+}
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+.hop-main {
+    display: inline-block;
+    padding: 4px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 10px;
+    margin-bottom: 30px;
+    color: #516fd4;
+}
+.hop {
+    margin-bottom: 20px;
+}
+.user-swap {
+    margin-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+}
+.fullname {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 5px;
+    
+}
+.place {
+    font-weight: 500;
+    font-size: 17px;
+}
